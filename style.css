@@ -1,0 +1,20 @@
+.brand-box {
+  min-height: 50px;
+  padding: 18px;
+  margin-left: 10px;
+  color: white;
+  font-weight: 900;
+  font-size: 24pt;
+  background: palevioletred;
+}
+
+.mynav {
+  background: white;
+}
+
+@media (max-width: 576px) {
+  .mynav {
+      background: palevioletred;
+      border-bottom: 4px solid white;
+  }
+}
