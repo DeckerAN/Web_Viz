@@ -17,14 +17,16 @@
   margin-left: 5px;
   margin-right: 5px;
   padding: 20px;
+  border-radius: 10px;
 }
 
-.content-box2 {
+.vizslide-box {
   background: white;
   margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: -10px;
+  margin-right: -10px;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .weather-img {
@@ -34,14 +36,6 @@
 .mynav {
   background: white;
 }
-
-@media (max-width: 576px) {
-  .mynav {
-      background: palevioletred;
-      border-bottom: 4px solid pink;
-  }
-}
-
 p {
   font-size: 12pt;
   color: dimgray;
@@ -50,4 +44,46 @@ p {
 .centered-imgs {
     margin-top: 20pt;
     text-align: center;
+}
+
+.plot-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.viz-title {
+    color: palevioletred;
+    background: mistyrose;
+    margin-top: -60px;
+}
+
+.comp-imgs {
+    display: inline-block;
+    width: 400px;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: cadetblue;
+    font-weight: 800;
+}
+
+@media (max-width: 576px) {
+  .mynav {
+      background: palevioletred;
+      border-bottom: 4px solid pink;
+  }
+  .comp-imgs {
+      display: inline-block;
+      width: 320px;
+  }
+}
+
+.clearfix {
+    overflow: auto;
 }

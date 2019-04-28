@@ -47,23 +47,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 content-box">
-          <h3>Weather vs. Latitude</h3>
+          <h3>Wind Speed</h3>
           <hr>
-          <img src="http://www.wtvm.com/pb/resources/images/weather/weather-condition-icons/400x400/66_daily_forecast.png" width="180" align="left" class="weather-img" alt="sun and cloud">
-          <p>The purpose of this project was to analyze how weather changes based on a city's distance from the equater.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API on over 500 random cities from around the globe.
-          </p><br>
-          <p>After assembling this dataset, we used the Matplotlib library to plot various measurable aspects of weather in these cities against their geographic latitude.  Considered factors included temperature, cloudiness, wind speed, and humidity.  This site provides the source data as well as the visualizations created to identify any trends.  Each visualization is accompanied by a description of any discernable trends.
-          </p>
+          <img src="assets/Fig4.png" class="plot-img" alt="wind speed plot">
+          <center><p> Cities experiencing relatively greater wind speed exist further away from the equator, with those experiencing the greatest speeds located above 40 degrees latitude.  Below 40 degrees latitude, all sampled cities experienced windspeeds of between 0 and 25 mph.
+          </p></center>
       </div>
       <div class="col-lg">
           <div class="bd-example vizslide-box">
-              <h3>Vizualizations<br><hr></h3>
+              <h3>Other Plots<br><hr></h3>
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+<!--                  <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>-->
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -77,7 +75,6 @@
                   <div class="carousel-item">
                     <a href="plot_humid.html">
                     <img src="assets/Fig2.png" class="d-block w-100" alt="humidity">
-
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="viz-title">Humidity</h5>
                     </div>
@@ -91,6 +88,7 @@
                     </div>
                     </a>
                   </div>
+<!--
                   <div class="carousel-item">
                     <a href="plot_wind.html">
                     <img src="assets/Fig4.png" class="d-block w-100" alt="wind speed">
@@ -99,6 +97,7 @@
                     </div>
                     </a>
                   </div>
+-->
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
