@@ -73,17 +73,6 @@ figcaption {
     font-weight: 800;
 }
 
-@media (max-width: 576px) {
-  .mynav {
-      background: palevioletred;
-      border-bottom: 4px solid pink;
-  }
-  .comp-imgs {
-      display: inline-block;
-      width: 320px;
-  }
-}
-
 .clearfix {
     overflow: auto;
 }
@@ -96,4 +85,20 @@ figcaption {
     background-size: 20px;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+@media (max-width: 576px) {
+  .mynav {
+      background: palevioletred;
+      border-bottom: 4px solid pink;
+  }
+  .comp-imgs {
+      display: inline-block;
+      width: 320px;
+  }
+  .plot-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
 }
